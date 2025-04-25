@@ -18,11 +18,15 @@ Python 3
 
 Run the "normie_vs_outlier_typology_quiz.py" script first:
 
-`python3 normie_vs_outlier_typology_quiz.py`
+```shell
+python3 normie_vs_outlier_typology_quiz.py
+```
 
 If your result is "Normie", then you're done. If your result is "Outlier", run the second "outlier_typology_quiz.py" script for more greater detail:
 
-`python3 outlier_typology_quiz.py`
+```shell
+python3 outlier_typology_quiz.py
+```
 
 # 🧠 Value Axes Behind the Tests
 
