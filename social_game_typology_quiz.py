@@ -129,6 +129,6 @@ This orientation can provide stability, predictability, and a strong sense of co
 #run_quiz([1,1,2,1,1,2,1,2,5,2]) # 0%
 #run_quiz([1,2,2,1,2,2,1,2,4,2]) # 7.5%
 #run_quiz([2,4,1,2,4,1,2,1,2,1]) # 92.5%
-run_quiz([2,5,1,2,5,1,2,1,1,1]) # 100%
+#run_quiz([2,5,1,2,5,1,2,1,1,1]) # 100%
 
-#run_quiz()
+run_quiz()
