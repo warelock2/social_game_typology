@@ -16,13 +16,15 @@ Python 3
 
 # 🔧 How to use
 
-Run the "normie_vs_outlier_typology_quiz.py" script first:
+Run the main quiz script first:
 
 ```shell
-python3 normie_vs_outlier_typology_quiz.py
+python3 social_game_typology_quiz.py
 ```
 
-If your result is "Normie", then you're done. If your result is "Outlier", run the second "outlier_typology_quiz.py" script for more greater detail:
+If your result is "Normie", then you're done. 
+
+However, if your result is "Outlier", run the second quiz script for greater detail:
 
 ```shell
 python3 outlier_typology_quiz.py
