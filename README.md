@@ -16,18 +16,19 @@ Python 3
 
 # 🔧 How to use
 
-Run the main quiz script first:
+[Install git](https://github.com/git-guides/install-git).
+
+Clone this repository and change your local directory to be the repository directory.
+
+```shell
+git clone https://github.com/warelock2/social_game_typology.git
+cd social_game_typology
+```
+
+Run the main quiz script:
 
 ```shell
 python3 social_game_typology_quiz.py
-```
-
-If your result is "Normie", then you're done. 
-
-However, if your result is "Outlier", run the second quiz script for greater detail:
-
-```shell
-python3 outlier_typology_quiz.py
 ```
 
 # 🧠 Value Axes Behind the Tests
