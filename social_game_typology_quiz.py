@@ -13,7 +13,7 @@ def run_quiz(auto_answers=None):
             "points": [8, 6, 4, 2, 0]
         },
         {
-            "question": "When you encounter uncomfortable truths, how often do you consciously avoid denying or distorting them, while embracing emotional seemingly necessary discomfort?",
+            "question": "When you encounter uncomfortable truths, how often do you consciously avoid denying or distorting them, while embracing seemingly necessary emotional discomfort?",
             "options": ["Almost never", "Rarely", "Sometimes", "Often", "Almost always"],
             "outlier_answers": ["Often", "Almost always"],
             "points": [0, 2, 4, 6, 8]
@@ -25,7 +25,7 @@ def run_quiz(auto_answers=None):
             "points": [8, 0]
         },
         {
-            "question": "When interacting with others, how often do you feel comfortable masking your true thoughts or emotions, if it appears that by doing that, you might have a better chance to fit in?",
+            "question": "When interacting with others, how often do you feel comfortable masking your true thoughts or emotions, if it appears that by doing so, you might have a better chance to fit in?",
             "options": ["Almost never", "Rarely", "Sometimes", "Often", "Almost always"],
             "outlier_answers": ["Almost never", "Rarely"],
             "points": [4, 3, 2, 1, 0]
@@ -195,14 +195,14 @@ def run_quiz(auto_answers=None):
   o  Often misunderstood, but resilient and unshakable in core identity.
         """)
     elif score_percentage >= 70:
-        print("    Category: ⚖️ Transitional Neo-Human")
+        print("    Category: ⚖️  Transitional Neo-Human")
         print("""
   o  Split between old and new modes of being.
   o  Possesses flashes of clarity and individuality, but sometimes slips into protohuman patterns under pressure or in social environments.
   o  Often a seeker or reformer.
         """)
     else:
-        print("    Category: Normie")
+        print("    Category: 👥 Normal (or \"Normie\")")
         print("""
 You tend to align closely with the prevailing values, beliefs, and behaviors of the society around you.
 Fitting in and maintaining social harmony are likely important priorities in your life, and you may naturally defer to established customs, traditions, or mainstream opinions rather than challenging or questioning them.
