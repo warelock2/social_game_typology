@@ -301,29 +301,18 @@ def results():
         response_content = "response_divergent.html"
     else:
         response_content = "response_normie.html"
-    '''
-    quiz_data = render_template_string("""
-        <html>
-            <head><title>Results</title></head>
-            <body>
-                <h1>Your Responses</h1>
-                <pre>{{ responses }}</pre>
-                <pre>{{ total_points }}</pre>
-                <pre>{{ max_points }}</pre>
-                <pre>{{ score_percentage }}</pre>
-            </body>
-        </html>
-        """, responses=responses, total_points=total_points, max_points=max_points, score_percentage=score_percentage)
-    '''
+
     preamble_content = render_template_string("""
-Thank you for taking the Social Game Typology Quiz! Your responses and results are below:<p>
-<p>
-Responses: {{ responses }}<p>
-<p>
-<hr>
-<p>
+        Thank you for taking the Social Game Typology Quiz! Your responses and results are below::<p>
+        <p>
+        Responses: <pre>{{ responses }}</pre><p>
+        <p>
+        <hr>
+        <p>
         """, responses=responses, total_points=total_points, max_points=max_points, score_percentage=score_percentage)
+
     full_content = preamble_content + "<pre>" + render_template(response_content) + "</pre>"
+
     return full_content
 
 if __name__ == '__main__':
