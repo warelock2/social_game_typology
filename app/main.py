@@ -240,7 +240,7 @@ def index():
         <body>
             <h1>Welcome to the Social Game Typology Quiz!</h1>
             By warelock<p>
-            This was inspired by <a href="https://noise.afobl.com/the-untethered-path-of-the-self-sovereign-individual/">The Untethered Path of the Self-Sovereign Individiual</a>.<p>
+            This was inspired by <a href="https://noise.afobl.com/the-untethered-path-of-the-self-sovereign-individual/">The Untethered Path of the Self-Sovereign Individual</a>.<p>
             <hr>
             <p>
             <li>
