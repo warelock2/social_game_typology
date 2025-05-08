@@ -303,9 +303,9 @@ def results():
         response_content = "response_normie.html"
 
     preamble_content = render_template_string("""
-        Thank you for taking the Social Game Typology Quiz! Your responses and results are below::<p>
+        Thank you for taking the Social Game Typology Quiz! Your responses and results are below:<p>
         <p>
-        Responses: <pre>{{ responses }}</pre><p>
+        Responses: {{ responses }}<p>
         <p>
         <hr>
         <p>
