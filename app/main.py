@@ -316,7 +316,9 @@ def results():
         """, responses=responses, total_points=total_points, max_points=max_points, score_percentage=score_percentage)
     '''
     preamble_content = render_template_string("""
-Thank you for taking the Social Game Typology Quiz! Your results are below:<p>
+Thank you for taking the Social Game Typology Quiz! Your responses and results are below:<p>
+<p>
+Responses: {{ responses }}<p>
 <p>
 <hr>
 <p>
