@@ -262,6 +262,8 @@ def quiz():
             <h1>The Social Game Typology Quiz</h1>
             There are a total of {{ total_questions }} questions on this quiz.<p>
             <p>
+            NOTICE: A.I. tools were used during the creative process of this psychological quiz.<p>
+            <p>
             <hr>
             <p>
             <form method="post" action="/results">
