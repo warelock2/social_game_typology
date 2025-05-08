@@ -4,7 +4,7 @@ WORKDIR /app
 COPY app /app
 RUN pip install flask gunicorn
 
-EXPOSE 8443
+EXPOSE 3443
 
-CMD ["gunicorn", "--certfile=certs/cert.pem", "--keyfile=certs/key.pem", "-b", "0.0.0.0:8443", "main:app"]
+CMD ["gunicorn", "--certfile=certs/cert.pem", "--keyfile=certs/key.pem", "-b", "0.0.0.0:3443", "main:app"]
 
