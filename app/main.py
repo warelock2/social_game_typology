@@ -239,7 +239,7 @@ def index():
         <head><title>Home</title></head>
         <body>
             <h1>Welcome to the Social Game Typology Quiz!</h1>
-            By warelock<p>
+            By warelock (<a href="https://discord.gg/efqQmw4BmZ">Discord chat server</a>)<p>
             This was inspired by <a href="https://noise.afobl.com/the-untethered-path-of-the-self-sovereign-individual/">The Untethered Path of the Self-Sovereign Individual</a>.<p>
             <hr>
             <p>
