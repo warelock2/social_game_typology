@@ -249,6 +249,10 @@ def index():
             <p>
             <hr>
             Here is the <a href="https://github.com/warelock2/social_game_typology">source code</a> to this quiz.<p>
+            <p>
+            If you would like to share this website, you can scan the QR code below:<p>
+            <p>
+            <img src="{{ url_for('static', filename='images/quiz_website_qr_code.png') }}" alt="My Image">
         </body>
     </html>
     """)
