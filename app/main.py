@@ -324,5 +324,5 @@ def results():
     return full_content
 
 if __name__ == '__main__':
-    app.run(ssl_context=('certs/cert.pem', 'certs/key.pem'), port=3443)
+    app.run(ssl_context=('certs/cert.pem', 'certs/key.pem'), host="0.0.0.0", port=3443)
 
