@@ -254,7 +254,9 @@ def index():
             <p>
             <img src="{{ url_for('static', filename='images/quiz_website_qr_code.png') }}" alt="Quiz Website QR Code"><p>
             <p>
-            NOTE: The old domain name for this website was <pre>https://socialtypologyquiz.afobl.com</pre>. It has been renamed to <a href="https://socialgametypologyquiz.afobl.com/">https://socialgametypologyquiz.afobl.com/</a>, instead. The old domain name will become defunct shortly, so please update your web browser bookmarks accordingly. Thank you.
+            UPDATE (2025-05-14): The old domain name for this website was: 
+            <pre>https://socialtypologyquiz.afobl.com</pre>. 
+            It has since been renamed to <a href="https://socialgametypologyquiz.afobl.com">https://socialgametypologyquiz.afobl.com</a>, instead. The old domain name will become defunct shortly, so please update your web browser bookmarks accordingly. Thank you.
         </body>
     </html>
     """, url_for=url_for)
