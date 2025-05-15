@@ -10,13 +10,17 @@ This is not a personality quiz.
 
 These tests are rooted in a radical philosophical premise: that many people exist in entirely separate psychological and existential paradigms, often invisible to one another. One adapts to the social game, the other rejects it. The Social Game Typology project is here to make that difference explicit.
 
-You can take the test online [here](https://socialgametypologyquiz.afobl.com/).
-
 # ⚙️ Console Script Requirements
 
 Python 3
 
 # 🔧 How to use
+
+## Online
+
+You can take the test online [here](https://socialgametypologyquiz.afobl.com/).
+
+## From the Command Line
 
 [Install git](https://github.com/git-guides/install-git).
 
