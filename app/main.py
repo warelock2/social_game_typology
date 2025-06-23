@@ -239,7 +239,7 @@ def index():
         <head><title>Home</title></head>
         <body>
             <h1>Welcome to the Social Game Typology Quiz!</h1>
-            By warelock (<a href="https://discord.gg/efqQmw4BmZ">Discord chat server</a>)<p>
+            By warelock<p>
             This was inspired by <a href="https://noise.afobl.com/the-untethered-path-of-the-self-sovereign-individual/">The Untethered Path of the Self-Sovereign Individual</a>.<p>
             <hr>
             <p>
@@ -249,6 +249,8 @@ def index():
             <p>
             <hr>
             Here is the <a href="https://github.com/warelock2/social_game_typology">source code</a> to this quiz.<p>
+            <p>
+            ATTENTION: There is a Discord server where you can share your results and discuss this topic. Look at the bottom of your quiz results page for a Discord server invitation link.<p>
             <p>
             If you would like to share this website, you can scan the QR code below:<p>
             <p>
