@@ -321,6 +321,16 @@ def results():
         <p>
         Your results:<p>
         <p>
+        ATTENTION: If this is the first time you're taking the quiz, realize that due to social pressures, people
+          tend to mask authentic beliefs and/or behavior. It's a well known principle that humans behave differntly
+          than they normally would if they believe they're being watched, even when they're not. Before clicking
+          on the discord invitation link below, take few moments, take a deep breath, and realize that no one is
+          watching or judging you while you take the quiz. It's just between you and the computer screen. Imagine
+          a world where you could get away with more honest and authentic behavior, where you could be more true
+          to your real self. Then take the quiz again from scratch, keeping all of this in mind. You may be surprised
+          at seeing a difference between your first and second quiz results. When you're done with your second pass
+          at the quiz, THEN click the Discord invitation link at the bottom of this results page.<p>
+        <p>
         <hr>
         <p>
         """, responses=responses, total_points=total_points, max_points=max_points, score_percentage=score_percentage)
